@@ -9,7 +9,7 @@ This repository is used to decrypt Signal messenger, more information can be fou
 ## Build
 For Linux, Mac
 ```
-./gradlew build
+gradle build
 ```
 
 For Windows
