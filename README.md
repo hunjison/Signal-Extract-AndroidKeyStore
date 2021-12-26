@@ -41,6 +41,8 @@ cp <UID>_USRPKEY_SignalSecret <UID>_USRPKEY_FAKE_SignalSecret
 ### 3. Open the Application and Check the extracted Keys
 You can get 3 keys, `pref_database_encrypted_secret`, `pref_attachment_encrypted_secret`, `pref_log_encrypted_secret`. Use these values ​​in the subsequent decryption process.
 
+![Signal_AndroidKeystore](https://user-images.githubusercontent.com/96677057/147407715-ce7f596c-d313-43d9-8a5c-c1d00ea6fb34.png)
+
 ---
 
 We made this repository by cloning and editing some codes for Signal Messenger.
