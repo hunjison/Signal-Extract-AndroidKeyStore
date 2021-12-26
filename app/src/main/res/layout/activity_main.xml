@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.keystore.androidkeystoredemo.MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="65dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="97dp"
+        android:text="Keystore"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="62dp"
+        android:text="Encrypt "
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="92dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="410dp"
+        android:text="Decrypt"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="376dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="39dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginStart="-101dp"
+        android:layout_marginBottom="28dp"
+        android:text="Decrypted Text"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-67dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-219dp"
+        android:text="AndroidKeystore KEY" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="298dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-65dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="-315dp"
+        android:text="AndroidKeystore KEY" />
+
+    <EditText
+        android:id="@+id/textView5"
+        android:layout_width="295dp"
+        android:layout_height="56dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-63dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="-423dp"
+        android:text="AndroidKeystore KEY" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginStart="-62dp"
+        android:layout_marginBottom="-162dp"
+        android:text="pref_database_encrypted_secret"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginStart="-63dp"
+        android:layout_marginBottom="-352dp"
+        android:text="pref_log_encrypted_secret"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-67dp"
+        android:layout_marginBottom="-250dp"
+        android:text="pref_attachment_encrypted_secret"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+</RelativeLayout>
