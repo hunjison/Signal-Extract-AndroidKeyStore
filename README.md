@@ -7,7 +7,9 @@ This repository is used to decrypt Signal messenger, more information can be fou
 ---
 ## Prerequisite
 Install Android Studio or Android SDK Build tools. (I recommend Android Studio)
+
 Set ANDROID_SDK_HOME environment variable.
+
 Install Gradle version 6.5
 
 ## Build
